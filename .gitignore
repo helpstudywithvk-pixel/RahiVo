@@ -9,3 +9,11 @@ coverage/
 .idea/
 *.iml
 .DS_Store
+
+# Local secrets and signing credentials
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+key.properties
